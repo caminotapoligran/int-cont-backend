@@ -18,7 +18,7 @@ pipeline {
     stage('Run maven') {
       steps {
         container('maven') {
-          sh 'mvn clean build'
+          sh 'mvn clean test'
         }
       }
     }
