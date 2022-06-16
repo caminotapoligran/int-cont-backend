@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/int-cont-backend
-    username: ${MYSQL_USERNAME:int-cont-backend}
-    password: ${MYSQL_PASSWORD:int-cont-backend}
+    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: sa
   jpa:
     properties:
       hibernate:

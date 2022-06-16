@@ -1,0 +1,6 @@
+CREATE TABLE user_type
+(
+    id   LONG AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    role VARCHAR(30) NOT NULL
+)
